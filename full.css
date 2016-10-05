@@ -1,0 +1,88 @@
+body {
+	text-align: center;
+	background-color: orange; }
+	@media screen and (min-width: 1000px) {
+		body {
+			background-color: #222; 
+			} 
+		}
+
+ul {
+	list-style: none;
+	max-width: 300px;
+	margin: auto; }
+	@media screen and (min-width: 500px) {
+		ul {
+			max-width: 500px;
+		}
+	}
+	@media screen and (min-width: 1000px) {
+		ul {
+			max-width: 1000px;
+		}
+	}
+
+div.block li {
+  background-color: #222;
+  margin-bottom: 30px;
+  padding: 35px; 
+  text-align: center; }
+  @media screen and (min-width: 100px) {
+  	li {
+  		background-color: #222; }
+
+  		 }
+  @media screen and (min-width: 500px) {
+     li {
+        background-color: #EEE; }
+
+         }
+  @media screen and (min-width: 1000px) {
+  	li {
+  		background-color: orange;
+  		} 
+  	}
+
+h1 {
+  font-size: 70px;
+  color: #EEE;
+  padding: 20px; }
+  @media screen and (min-width: 100px) {
+  	h1 {
+  		color: #222;
+  	}
+  }
+  @media screen and (min-width: 500px) {
+    h1 {
+      color: #EEE; 
+      } 
+  }
+  @media screen and (min-width: 1000px) {
+    h1 {
+      color: orange; 
+      } 
+  }
+
+h2 {
+  font-size: 35px;
+  color: #EEE; }
+  @media screen and (min-width: 100px) {
+  	h2 {
+  		color: #EEE;
+  	}
+  }
+  @media screen and (min-width: 500px) {
+    h2 {
+      color: orange; 
+      } 
+  }
+  @media screen and (min-width: 1000px) {
+    h2 {
+      color: #222; 
+      } 
+  }
+
+
+  h1,h2 {
+  	font-family: 'Muli', sans-serif;
+  }
